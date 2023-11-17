@@ -1,11 +1,8 @@
 package com.my.currency.l0
 
-import cats.effect.IO
 import org.tessellation.BuildInfo
-import org.tessellation.currency.dataApplication.BaseDataApplicationL0Service
 import org.tessellation.currency.l0.CurrencyL0App
 import org.tessellation.schema.cluster.ClusterId
-import org.tessellation.security.SecurityProvider
 
 import java.util.UUID
 
