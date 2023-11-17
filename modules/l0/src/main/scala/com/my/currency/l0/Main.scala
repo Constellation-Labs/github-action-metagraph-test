@@ -15,8 +15,4 @@ object Main
     "custom-project L0 node",
     ClusterId(UUID.fromString("517c3a05-9219-471b-a54c-21b7d72f4ae5")),
     version = BuildInfo.version
-  ) {
-  def dataApplication: Option[BaseDataApplicationL0Service[IO]] = None
-
-  def rewards(implicit sp: SecurityProvider[IO]) = None
-}
+  ) {}
