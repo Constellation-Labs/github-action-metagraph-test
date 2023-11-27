@@ -36,7 +36,7 @@ lazy val currencyL1 = (project in file("modules/l1"))
       CompilerPlugin.betterMonadicFor,
       CompilerPlugin.semanticDB,
       Libraries.tessellationDAGL1,
-      Libraries.tessellationNodeShared,
+      Libraries.tessellationSDK,
       Libraries.tessellationShared,
       Libraries.tessellationCurrencyL1
     )
@@ -63,7 +63,7 @@ lazy val currencyL0 = (project in file("modules/l0"))
       Libraries.declineEffect,
       Libraries.tessellationKernel,
       Libraries.tessellationDAGL1,
-      Libraries.tessellationNodeShared,
+      Libraries.tessellationSDK,
       Libraries.tessellationShared,
       Libraries.tessellationKeytool,
       Libraries.tessellationCurrencyL0,
